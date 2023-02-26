@@ -1,0 +1,6 @@
+@use '../util' as u;
+
+.container {
+    max-width: u.toEm(700);
+    margin-inline: auto;
+}

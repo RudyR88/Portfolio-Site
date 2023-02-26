@@ -1,0 +1,19 @@
+@use '../../scss/util' as u;
+
+.navbar {
+    padding-block: 1.5rem;
+
+    a {
+        font-size: u.toRem(16);
+        color: var(--white);
+        transition: color .3s ease-in-out;
+
+        &:hover, &:focus {
+            color: var(--accent-clr);
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

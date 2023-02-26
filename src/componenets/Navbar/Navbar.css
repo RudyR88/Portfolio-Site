@@ -1,0 +1,14 @@
+.navbar {
+  padding-block: 1.5rem;
+}
+.navbar a {
+  font-size: 1rem;
+  color: var(--white);
+  transition: color 0.3s ease-in-out;
+}
+.navbar a:hover, .navbar a:focus {
+  color: var(--accent-clr);
+}
+.navbar a:focus {
+  outline: none;
+}/*# sourceMappingURL=Navbar.css.map */
